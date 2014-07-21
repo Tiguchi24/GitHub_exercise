@@ -1,10 +1,10 @@
-<!--?php <br ?--> $link = mysql_connect('localhost', 'root', '');
+<!--?php <br ?--> $link = mysqli_connect('localhost', 'root', '');
 2
 if (!$link) {
 3
 die('接続失敗！
 4
-'.mysql_error());
+'.mysqli_error());
 5
 } else {
 6
