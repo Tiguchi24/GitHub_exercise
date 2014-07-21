@@ -10,6 +10,7 @@ die('接続失敗！
 6
 echo '接続成功！';
  mysqli_set_charset($link, "utf8");
+ mysqli_close($link);
 7
 }
 8
